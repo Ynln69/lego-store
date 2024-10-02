@@ -1,4 +1,4 @@
-import { addToCart } from "./cart";
+import { addToCart } from "./cart.js";
 
 const urlParams = new URLSearchParams(window.location.search);
 const productId = urlParams.get("id");
@@ -6,7 +6,9 @@ const productId = urlParams.get("id");
 fetch("./products-data.json")
   .then((response) => response.json())
   .then((data) => {
+    console.log("Дані продуктів:", data);
     const product = data.products.find((p) => p.id == productId);
+    console.log("Знайдений продукт:", product);
 
     if (product) {
       const productMarkup = `
