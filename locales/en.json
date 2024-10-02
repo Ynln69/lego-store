@@ -1,0 +1,201 @@
+{
+  "header": {
+    "link1": "main",
+    "link2": "about us",
+    "link3": "catalogs",
+    "link4": "gift vouchers"
+  },
+  "hero": {
+    "homeTitle": "lego slot game shop",
+    "aboutTitle": "about Lego Store",
+    "certificatesTitle": "gift certificates",
+    "thanksTitle": "Thank you for your purchase!"
+  },
+  "abouthome": {
+    "title": "Casino style creativity and fun!",
+    "description": "We are a store specializing in unique construction sets inspired by the world of casino games, slot machines and online slots. Our products combine creativity with the theme of gambling games, allowing you to build unique projects. We guarantee the high quality of our sets, which will inspire both game fans and people looking for innovative forms of fun."
+  },
+  "aboutPage": {
+    "mainTitle": "Market analysis and popularity of casino games",
+    "mainDesc": "After a detailed market analysis, we noticed that topics related to gambling games, including online slots and casinos, are gaining enormous popularity. Casino games and online slots attract more and more people, which makes this topic an important trend in the entertainment industry. For this reason, we have decided to adapt our offer to respond to the growing interest.",
+    "secondTitle": "Unique construction sets inspired by casinos",
+    "secondDesc": "In response to market trends, we have introduced construction sets inspired by the world of casino games. Our products combine creativity with gambling themes, allowing you to build unique designs. We care about the high quality of our sets, believing that they will appeal to both fans of online games and people looking for innovative forms of entertainment.",
+    "therdTitle": "A modern approach to creative play",
+    "therdDesc": "Our construction sets are not only inspired by the world of casinos, but also a modern form of entertainment that stimulates imagination and creativity. Thanks to them, everyone can create a unique structure, enjoying the joy of building based on gambling game themes. It's the perfect combination of fun and innovation!"
+  },
+  "certificates": {
+    "title": "Give the gift of a mini-casino for the holidays!",
+    "description": "The holidays are approaching and you are looking for a unique gift?Our LEGO sets inspired by the world of casinos and slot machines are the perfect choice!Give your friend or loved one the opportunity to build their own mini-casino, full of excitement and fun.It is a great way to combine creativity with the fascinating world of gambling. Regardless of whether it is for the New Year, birthday or other occasions - our gift card is a guarantee of unforgettable moments and great entertainment!"
+  },
+  "towary": {
+    "cardTitle1": "Hogwarts Castle – Hotel Casino",
+    "cardDesc1": "Build your own magical hotel-casino at Hogwarts Castle. Design rooms for wizards and create an exclusive casino area where magic mixes with gambling games. A perfect choice for Harry Potter fans who want to immerse themselves in a world full of entertainment.",
+
+    "cardTitle2": "Creeper Mountain – Mini Casino",
+    "cardDesc2": "Discover the underground mini-casino hidden in Creeper Mountain. Create your own gambling zone in Minecraft style, where players can face various challenges and collect valuable blocks. Great fun for fans of Minecraft and the casino world.",
+
+    "cardTitle3": "City Construction – Casino Under Construction",
+    "cardDesc3": "Build the largest casino in LEGO City! Help develop an entertainment center by constructing new buildings and creating a luxury casino that will attract guests from all over the world. Your city needs a new gambling zone!",
+
+    "cardTitle4": "Beachside Villa – Resort Casino",
+    "cardDesc4": "Create your own seaside resort-casino with a beachside villa. The set allows you to design an exclusive property with pools, a gambling zone, and luxurious rooms. A beach casino is the perfect place for vacation relaxation and play.",
+
+    "cardTitle5": "Gas Station – Casino Pit Stop",
+    "cardDesc5": "Build a gas station that serves guests of the nearby casino. Every player needs to refuel before the big game! Make life easier for LEGO City residents heading for an evening of gambling fun.",
+
+    "cardTitle6": "Fire Station – Casino Fire Brigade",
+    "cardDesc6": "LEGO City firefighters are always ready for action in the city's new casino. Secure your casino from fires and be the hero who ensures the safety of guests during their gambling adventures.",
+
+    "cardTitle7": "Name",
+    "cardDesc7": "Description",
+
+    "cardTitle8": "Name",
+    "cardDesc8": "Description",
+
+    "cardTitle9": "Name",
+    "cardDesc9": "Description",
+
+    "cardTitle10": "Name",
+    "cardDesc10": "Description",
+
+    "cardBtn": "Add to cart"
+  },
+  "buttons": {
+    "toCatalog": "to catalog",
+    "goHome": "Go to homepage"
+  }, 
+  "payment": {
+    "mainTitle": "Payment and Delivery",
+
+    "title1": "Payment Methods",
+    "title2": "Delivery Options",
+    "title3": "Shipment Tracking",
+    "title4": "Contact",
+
+    "text1": "At legoslotgameshop.com, we offer a variety of convenient payment methods to ensure a comfortable shopping experience for our customers. You can choose one of the following payment options:",
+    "text2": "All payments are processed securely, ensuring the protection of your personal and financial data.",
+    "text3": "We deliver our products across Poland and to many countries in Europe. We offer the following delivery options:",
+    "text4": "Delivery costs are calculated automatically when placing an order and depend on the chosen delivery method and location.",
+    "text5": "Once your order is shipped, you will receive a tracking number, allowing you to monitor the status of your delivery in real-time.",
+    "text6": "If you have any questions regarding payment or delivery, please contact us through our Contact page. We are here to help!",
+
+    "item1": "Credit/Debit Card Payment (Visa, MasterCard)",
+    "item2": "Bank Transfer",
+    "item3": "Online Payment via Secure Payment Systems",
+    "item4": "Cash on Delivery (available for selected delivery methods only)",
+    "item5": "Courier Delivery (2-5 business days)",
+    "item6": "Parcel Lockers (1-3 business days)",
+    "item7": "International Delivery (5-10 business days, depending on the country)"
+  },
+  "rules": {
+    "mainTitle": "Platform Terms of Use",
+
+    "title1": "1. General Provisions",
+    "title2": "2. Registration and Personal Data",
+    "title3": "3. Platform Usage Rules",
+    "title4": "4. Liability",
+    "title5": "5. Amendments to the Terms",
+    "title6": "6. Contact",
+
+    "text1": "These terms of use define the rules for using the legoslotgameshop.com platform. By using our website, you agree to these terms. Please read the terms carefully before making any purchases.",
+    "text2": "When placing an order, the user is required to provide true information, such as name, phone number, and email address. This information is necessary to process the order and contact the customer. legoslotgameshop.com ensures the protection of personal data in accordance with applicable data protection laws.",
+    "text3": "The user agrees to use the platform in compliance with the law and the rules outlined in these terms. The following is prohibited:",
+    "text4": "legoslotgameshop.com is not liable for any damages resulting from improper use of its services by the user. In the event of technical issues with the platform, the user must report them to the site administrators immediately.",
+    "text5": "We reserve the right to amend these terms at any time. Any changes will be published on this page and will take effect immediately. Continued use of the platform after changes are implemented constitutes acceptance of the new terms.",
+    "text6": "If you have any questions regarding these terms, please contact us via the Contact page.",
+
+    "item1": "Using the platform in a way that violates applicable laws.",
+    "item2": "Providing false or misleading information during registration or placing orders.",
+    "item3": "Using the platform for activities that harm its operation."
+  },
+
+  "warranty": {
+    "mainTitle": "Warranty and Returns",
+
+    "title1": "1. Product Warranty",
+    "title2": "2. Return Policy",
+    "title3": "3. Refund Process",
+    "title4": "4. Product Exchange",
+    "title5": "5. Contact",
+
+    "text1": "All products purchased from legoslotgameshop.com are covered by the manufacturer's warranty. The warranty covers factory defects and damages resulting from normal use. The warranty period depends on the specific product and is indicated in the product description on our website.",
+    "text2": "If the purchased product is found to be defective, please contact our customer service team immediately through the Contact page.",
+    "text3": "Customers have the right to return purchased goods within 14 days of receiving the shipment without providing a reason. To exercise the right of withdrawal, please contact our customer service team and fill out the return form available on the website.",
+    "text4": "The returned product must be in its original condition, in its original packaging, and without signs of use. The return shipping costs are the responsibility of the customer unless the return is due to our error (e.g., incorrect product sent).",
+    "text5": "Upon receiving and inspecting the returned goods, the refund will be issued to the customer's account within 14 business days. Refunds will be made using the same payment method used during purchase, unless otherwise agreed.",
+    "text6": "If you wish to exchange a product for another, please contact our customer service team. Product exchanges are possible if the ordered product is available in stock. In such cases, the purchased item must be returned, and we will ship the new product upon receiving the returned item.",
+    "text7": "For any questions regarding warranties or returns, please contact our customer service team via the Contact page. We are ready to assist with any inquiries or issues."
+  },
+
+  "privacyPolicy": {
+    "mainTitle": "Privacy Policy",
+
+    "title1": "1. General Information",
+    "title2": "2. Scope of Collected Data",
+    "title3": "3. Purpose of Data Processing",
+    "title4": "4. Data Protection",
+    "title5": "5. User Rights",
+    "title6": "6. Cookies",
+    "title7": "7. Amendments to the Privacy Policy",
+    "title8": "8. Contact",
+
+    "text1": "This privacy policy outlines the rules for processing the personal data of users using the legoslotgameshop.com website. Protecting our customers' privacy is our priority, so we collect and process personal data in accordance with applicable laws, including Regulation (EU) 2016/679 (GDPR).",
+    "text2": "When placing an order or registering on our website, we may ask for the following information:",
+    "text3": "This data is necessary to process orders and contact customers in case of questions or issues.",
+    "text4": "We process personal data for the following purposes:",
+    "text5": "All personal data is protected with appropriate technical and organizational measures to ensure its security against unauthorized access, alteration, or destruction. Only authorized personnel who are required to maintain confidentiality have access to the data.",
+    "text6": "Each user has the right to:",
+    "text7": "Our website uses cookies to improve the quality of services provided and to tailor content to individual user preferences. Users can manage their cookie settings via their web browser. Detailed information can be found in our Cookie Policy.",
+    "text8": "We reserve the right to amend this privacy policy. Any changes will be published on this page. We recommend regularly reviewing the policy to stay informed about current data protection practices.",
+    "text9": "If you have any questions regarding this privacy policy, please contact us via the Contact page.",
+
+    "item1": "Name and surname",
+    "item2": "Email address",
+    "item3": "Phone number",
+    "item4": "Delivery address",
+    "item5": "Processing orders placed by users",
+    "item6": "Contacting users regarding their orders",
+    "item7": "Providing information about new products, promotions, and special offers if the user has opted to receive the newsletter",
+    "item8": "Improving website functionality and analyzing website traffic",
+    "item9": "Accessing personal data",
+    "item10": "Correcting, deleting, or limiting data processing",
+    "item11": "Withdrawing consent to data processing at any time",
+    "item12": "Transferring data to another data controller",
+    "item13": "Filing a complaint with the supervisory authority in case of a data protection violation"
+  },
+
+  "kontakt": {
+    "mainTitle": "Contact",
+
+    "title1": "Get in Touch",
+    "title2": "Contact Information",
+    "title3": "Business Hours",
+    "title4": "Our Location",
+
+    "text1": "Do you have questions about our products, orders, or need more information? Contact us, and we’ll be happy to help!",
+    "text2": "Email address: support@legoslotgameshop.com",
+    "text3": "Phone: +48 443 878 099",
+    "text4": "Address: ul. Przykładowa 123, 00-001 Warsaw, Poland",
+    "text5": "We are available Monday to Friday from 9:00 AM to 5:00 PM. We strive to respond to emails within 24 hours.",
+    "text6": "Check our location on the map below:"
+  }, 
+
+  "footer": {
+    "text1": "main",
+    "text2": "about us",
+    "text3": "catalog",
+    "text4": "gift certificates",
+    "text5": "contact",
+
+    "link1": "about us",
+    "link2": "catalog",
+    "link3": "our history",
+    "link4": "all products",
+    "link5": "electronic certificates",
+    "link6": "contact",
+    "link7": "Platform Terms of Use",
+    "link8": "Warranty and Returns",
+    "link9": "Payment and Delivery",
+    "link10": "Privacy Policy"
+}
+}

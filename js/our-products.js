@@ -29,21 +29,25 @@ document.addEventListener("DOMContentLoaded", () => {
         const end = start + productsPerPage;
         const productsToDisplay = productsToShow.slice(start, end);
 
-        productsToDisplay.forEach((product) => {
+        productsToDisplay.forEach((product, index) => {
           const li = document.createElement("li");
           li.classList.add("our-products-item");
+
+          const translateKeyTitle = `towary.cardTitle${index + 1}`;
+          const translateKeyDesc = `towary.cardDesc${index + 1}`;
+          const translateKeyBtn = `towary.cardBtn`;
 
           li.innerHTML = `
             <a href="../product-page.html?id=${product.id}">
             <img src="${product.photo}" alt="${product.title}" class="products-item-img">
             <div class="products-item-thumb">
-              <h3 class="products-item-title">${product.title}</h3>
-              <p class="products-item-desk">${product.description}</p>
+              <h3 class="products-item-title" data-translate="${translateKeyTitle}">${product.title}</h3>
+              <p class="products-item-desk" data-translate="${translateKeyDesc}">${product.description}</p>
             </div>
             </a>
             <div class="products-item-wrapper">
               <p class="products-item-price">${product.price} PLN</p>
-              <button type="button" class="basket-btn" data-id="${product.id}">${product.button}
+              <button type="button" class="basket-btn" data-id="${product.id}" data-translate="${translateKeyBtn}">${product.button}
                 <svg width="16" height="16">
                   <use href="../img/icon/icon-defs.svg#icon-shopping-cart"></use>
                 </svg>

@@ -51,33 +51,33 @@
           {
             "id": 7,
             "photo": "./img/product-card/card-1.jpg",
-            "title": "Назва",
+            "title": "Name",
             "price": "7000",
-            "description": "Опис товару",
+            "description": "description",
             "button": "w koszyku"
           },
           {
             "id": 8,
             "photo": "./img/product-card/card-1.jpg",
-            "title": "Назва",
+            "title": "Name",
             "price": "9000",
-            "description": "Опис товару",
+            "description": "description",
             "button": "w koszyku"
           },
           {
             "id": 9,
             "photo": "./img/product-card/card-1.jpg",
-            "title": "Назва",
+            "title": "Name",
             "price": "10000",
-            "description": "Опис товару",
+            "description": "description",
             "button": "w koszyku"
           },
           {
             "id": 10,
             "photo": "./img/product-card/card-1.jpg",
-            "title": "Назва",
+            "title": "Name",
             "price": "11000",
-            "description": "Опис товару",
+            "description": "description",
             "button": "w koszyku"
           }
     ]

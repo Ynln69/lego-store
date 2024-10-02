@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
-    name="description"
-    content="LEGO zestaw kasyno – unikalne zestawy inspirowane światem kasyn online i gier hazardowych. Zbuduj swoje ulubione automaty do gier, stoły pokerowe i inne elementy kasyna za pomocą naszych szczegółowych zestawów LEGO."
-  />
-  <meta
-    name="keywords"
-    content="LEGO zestaw kasyno, konstruktor kasyno, LEGO kasyno, zestawy LEGO hazard, automaty do gier LEGO, tematyczne zestawy LEGO kasyno, konstruktor automatów do gier, LEGO stół pokerowy, LEGO gry hazardowe, LEGO kasyno na zamówienie"
-  />
-    <title>Koszyk</title>
+      name="description"
+      content="LEGO zestaw kasyno – unikalne zestawy inspirowane światem kasyn online i gier hazardowych. Zbuduj swoje ulubione automaty do gier, stoły pokerowe i inne elementy kasyna za pomocą naszych szczegółowych zestawów LEGO."
+    />
+    <meta
+      name="keywords"
+      content="LEGO zestaw kasyno, konstruktor kasyno, LEGO kasyno, zestawy LEGO hazard, automaty do gier LEGO, tematyczne zestawy LEGO kasyno, konstruktor automatów do gier, LEGO stół pokerowy, LEGO gry hazardowe, LEGO kasyno na zamówienie"
+    />
+    <title>Kontakt</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -54,13 +54,33 @@
     </header>
 
     <main>
-      <section class="section cart-section">
-        <div class="container cart-container">
-          <ul id="cart-list" class="cart-list"></ul>
-          <button type="button" class="basket-btn cart-btn" id="openModalBtn">
-            składać zamówienie
-          </button>
-        </div>
+        <section>
+            <h1>Kontakt</h1>
+        
+            <h2>Skontaktuj się z nami</h2>
+            <p>Masz pytania dotyczące naszych produktów, zamówień lub chcesz uzyskać więcej informacji? Skontaktuj się z nami, a chętnie pomożemy!</p>
+        
+            <h2>Dane kontaktowe</h2>
+            <p><strong>Adres e-mail:</strong> <a href="mailto:support@legoslotgameshop.com">support@legoslotgameshop.com</a></p>
+            <p><strong>Telefon:</strong> +48 443 878 099</p>
+            <p><strong>Adres:</strong> ul. Przykładowa 123, 00-001 Warszawa, Polska</p>
+        
+            <h2>Godziny pracy</h2>
+            <p>Jesteśmy dostępni od poniedziałku do piątku w godzinach 9:00 - 17:00. Staramy się odpowiadać na wiadomości e-mail w ciągu 24 godzin.</p>
+        
+            <h2>Nasza lokalizacja</h2>
+            <p>Sprawdź naszą lokalizację na mapie poniżej:</p>
+        
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.0210263685095!2d21.012229715799056!3d52.22967527975895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc6e9e758eeb%3A0x7b3a57a1b92f5f89!2sul.%20Przyk%C5%82adowa%20123%2C%2000-001%20Warszawa%2C%20Polska!5e0!3m2!1spl!2spl!4v1696173412093!5m2!1spl!2spl"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
       </section>
     </main>
 
@@ -176,64 +196,8 @@
         </p>
       </div>
     </footer>
-
-    <div id="modal" class="modal">
-      <div class="modal-content">
-        <span class="close">&times;</span>
-        <form id="orderForm" class="modal-form">
-          <label for="name" class="form-label">Pełne imię i nazwisko</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            class="form-input"
-            placeholder="Wpisz swoje pełne imię i nazwisko"
-            required
-          />
-
-          <label for="email" class="form-label">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            class="form-input"
-            placeholder="Wpisz swój adres e-mail"
-            required
-          />
-
-          <label for="phone" class="form-label">Numer telefonu:</label>
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            class="form-input"
-            placeholder="Wpisz numer telefonu"
-            required
-          />
-
-          <label for="delivery" class="form-label">Sposób dostawy:</label>
-          <select id="delivery" name="delivery" class="form-input" required>
-            <option value="delivery">Dostawa</option>
-            <option value="pickup">Ulec poprawie</option>
-          </select>
-
-          <label for="comment" class="form-label">Komentarz:</label>
-          <textarea
-            id="comment"
-            name="comment"
-            class="form-input"
-            placeholder="Zostaw komentarz"
-          ></textarea>
-
-          <button type="submit" class="basket-btn form-btn">Potwierdzać</button>
-        </form>
-      </div>
-    </div>
     <script src="https://unpkg.com/i18next-xhr-backend@latest/i18nextXHRBackend.min.js"></script>
     <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
     <script type="module" src="./js/translator.js"></script>
-    <script type="module" src="./js/cart.js"></script>
-    <script type="module" src="./js/cart-count.js"></script>
-    <script type="module" src="./js/modal-form.js"></script>
   </body>
 </html>
