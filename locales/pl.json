@@ -125,8 +125,8 @@
     "text6": "W przypadku chęci wymiany produktu na inny, prosimy o kontakt z naszym działem obsługi klienta. Wymiana produktów jest możliwa, o ile zamówiony produkt jest dostępny na stanie. W takim przypadku należy odesłać zakupiony towar, a my wyślemy nowy po otrzymaniu zwróconego produktu.",
     "text7": "W przypadku pytań dotyczących gwarancji lub zwrotów, prosimy o kontakt z naszym działem obsługi klienta za pośrednictwem strony Kontakt. Jesteśmy gotowi odpowiedzieć na wszelkie pytania i rozwiązać ewentualne problemy."
   },
-  "privacy-policy": {
-    "main-title": "Polityka prywatności",
+  "privacy": {
+    "mainTitle": "Polityka prywatności",
 
     "title1": "1. Informacje ogólne",
     "title2": "2. Zakres gromadzonych danych",
@@ -162,7 +162,7 @@
     "item13": "Złożenia skargi do organu nadzorczego w przypadku naruszenia przepisów dotyczących ochrony danych osobowych"
   },
   "kontakt": {
-    "main-title": "Kontakt",
+    "mainTitle": "Kontakt",
 
     "title1": "Skontaktuj się z nami",
     "title2": "Dane kontaktowe",
