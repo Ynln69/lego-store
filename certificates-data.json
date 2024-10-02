@@ -4,48 +4,29 @@
             "title": "Nazwa certyfikatu",
             "description": "Opis produktu",
             "price": "500  PLN",
-            "button": "w koszyku"
+            "button": "w koszyku",
+            "id": "1"
           },
           {
             "title": "Nazwa certyfikatu",
             "description": "Opis produktu",
             "price": "500  PLN",
-            "button": "w koszyku"
+            "button": "w koszyku",
+            "id": "2"
           },
           {
             "title": "Nazwa certyfikatu",
             "description": "Opis produktu",
             "price": "500  PLN",
-            "button": "w koszyku"
+            "button": "w koszyku",
+            "id": "3"
           },
           {
            "title": "Nazwa certyfikatu",
             "description": "Opis produktu",
             "price": "500  PLN",
-            "button": "w koszyku"
-          }, {
-           "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
-            "button": "w koszyku"
-          },
-          {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
-            "button": "w koszyku"
-          } ,
-          {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
-            "button": "w koszyku"
-          },
-          {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
-            "button": "w koszyku"
+            "button": "w koszyku",
+            "id": "4"
           }
     ]
   }

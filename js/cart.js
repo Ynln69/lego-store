@@ -8,7 +8,7 @@ export function addToCart(product) {
     cart.push({
       id: product.id,
       title: product.title,
-      photo: product.photo,
+      photo: product.photo || null,
       price: product.price,
       quantity: 1,
     });
@@ -31,11 +31,15 @@ export function renderCartItems() {
   cart.forEach(item => {
     const li = document.createElement('li');
     li.classList.add('cart-item');
+
+    const photoMarkup = item.photo ? `<img src="${item.photo}" alt="${item.title}" class="cart-img">` : '';
+
     li.innerHTML = `
-        <img src="${item.photo}" alt="${item.title}" class="cart-img">
+        ${photoMarkup}
         <div>
           <h3 class="cart-title">${item.title}</h3>
-          <p>${item.quantity}</p>
+          <p>Кількість: ${item.quantity}</p>
+          <p>Ціна: ${item.price}</p>
         </div>
       `;
     cartList.appendChild(li);
