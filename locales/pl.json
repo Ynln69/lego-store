@@ -1,70 +1,72 @@
 {
   "header": {
-      "link1": "główny",
-      "link2": "o nas",
-      "link3": "katalog",
-      "link4": "bony podarunkowe"
-    },
+    "link1": "główny",
+    "link2": "o nas",
+    "link3": "katalog",
+    "link4": "bony podarunkowe"
+  },
   "hero": {
-      "homeTitle": "lego slot game shop",
-      "aboutTitle": "o sklepie Lego Store",
-      "certificatesTitle": "bony podarunkowe",
-      "thanksTitle": "Dziękujemy za zakup!"
-    },
-    "abouthome": {
-      "title": "Kreatywność i zabawa w stylu kasynowym!",
-      "description": "Jesteśmy sklepem specjalizującym się w unikalnych zestawach konstrukcyjnych inspirowanych światem gier kasynowych, automatów i slotów online. Nasze produkty łączą kreatywność z tematyką gier hazardowych, pozwalając na budowanie unikalnych projektów. Gwarantujemy wysoką jakość naszych zestawów, które zainspirują zarówno fanów gier, jak i osoby szukające innowacyjnych form zabawy."
-    },
-    "aboutPage": {
-      "mainTitle": "Analiza rynku i popularność gier kasynowych",
-      "mainDesc": "Po szczegółowej analizie rynku zauważyliśmy, że tematy związane z grami hazardowymi, w tym slotami online oraz kasynami, zyskują ogromną popularność. Gry kasynowe i sloty online przyciągają coraz większą liczbę osób, co sprawia, że temat ten stał się istotnym trendem w branży rozrywkowej. Z tego powodu postanowiliśmy dostosować naszą ofertę, aby odpowiedzieć na rosnące zainteresowanie.",
-      "secondTitle": "Unikalne zestawy konstrukcyjne inspirowane kasynami",
-      "secondDesc": "W odpowiedzi na trendy rynkowe, wprowadziliśmy zestawy konstrukcyjne inspirowane światem gier kasynowych. Nasze produkty łączą kreatywność z motywami gier hazardowych, umożliwiając budowanie unikalnych projektów. Dbamy o wysoką jakość naszych zestawów, wierząc, że przypadną one do gustu zarówno fanom gier online, jak i osobom poszukującym innowacyjnych form rozrywki.",
-      "therdTitle": "Nowoczesne podejście do kreatywnej zabawy",
-      "therdDesc": "Nasze zestawy konstrukcyjne to nie tylko inspiracja światem kasyn, ale także nowoczesna forma rozrywki, która pobudza wyobraźnię i kreatywność. Dzięki nim każdy może stworzyć unikalną konstrukcję, czerpiąc radość z budowania w oparciu o motywy gier hazardowych. To idealne połączenie zabawy i innowacyjności!"
-    },
-   "certificates": {
-      "title": "Podaruj mini-kasyno na święta!",
-      "description": "Zbliżają się święta, a Ty szukasz wyjątkowego prezentu? Nasze zestawy LEGO inspirowane światem kasyn i automatów do gier to idealny wybór! Podaruj swojemu przyjacielowi lub bliskiej osobie możliwość zbudowania własnego mini-kasyna, pełnego emocji i zabawy. To doskonały sposób na połączenie kreatywności z fascynującym światem gier hazardowych. Niezależnie czy to na Nowy Rok, urodziny czy inne okazje – nasza karta podarunkowa to gwarancja niezapomnianych chwil i świetnej rozrywki!"
-    },
-    "towary": {
-      "cardTitle1": "Zamek Hogwart – Hotel-Kasyno",
-      "cardDesc1": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",
-      
-      "cardTitle2": "Góra Creepera – Mini-Kasyno",
-      "cardDesc2": "Odkryj podziemne mini-kasyno ukryte w górze Creepera. Stwórz własną hazardową strefę w stylu Minecrafta, gdzie gracze mogą mierzyć się w różnych wyzwaniach, zdobywając cenne bloki. Doskonała zabawa dla fanów gry Minecraft i świata kasyn.",
-      
-      "cardTitle3": "Budowa w mieście – Kasyno w budowie",
-      "cardDesc3": "Buduj największe kasyno w mieście LEGO City! Pomóż rozwijać centrum rozrywki, stawiając nowe budynki i tworząc luksusowe kasyno, które przyciągnie gości z całego świata. Twoje miasto potrzebuje nowej strefy hazardowej!",
-      
-      "cardTitle4": "Willa przy plaży – Resort-Kasyno",
-      "cardDesc4": "Stwórz własny nadmorski resort-kasyno z willą przy plaży. Zestaw pozwala na zaprojektowanie ekskluzywnej posiadłości z basenami, strefą hazardową i luksusowymi pokojami. Kasyno na plaży to idealne miejsce na wakacyjny relaks i grę.",
-      
-      "cardTitle5": "Stacja benzynowa – Przystanek przy kasynie",
-      "cardDesc5": "Zbuduj stację benzynową, która obsługuje gości pobliskiego kasyna. Każdy gracz musi gdzieś zatankować przed wielką rozgrywką! Ułatw życie mieszkańcom LEGO City, którzy wybierają się na wieczór pełen hazardu.",
-      
-      "cardTitle6": "Remiza strażacka – Straż przy kasynie",
-      "cardDesc6": "Strażacy LEGO City są zawsze gotowi do akcji w nowym kasynie miasta. Zabezpiecz swoje kasyno przed pożarami i bądź bohaterem, który zapewni bezpieczeństwo gościom podczas ich hazardowych przygód.",
-      
-      "cardTitle7": "nazwa",
-      "cardDesc7": "opis",
-      
-      "cardTitle8": "nazwa",
-      "cardDesc8": "opis",
-      
-      "cardTitle9": "nazwa",
-      "cardDesc9": "opis",
-  
-      "cardTitle10": "nazwa",
-      "cardDesc10": "opis",
-      
-      "cardBtn": "w koszyku"
-    },
-    "buttons": {
-      "toCatalog": "do katalogu",
-      "goHome": "Na głównym"
-    },
-    "payment": {
+    "homeTitle": "lego slot game shop",
+    "aboutTitle": "o sklepie Lego Store",
+    "certificatesTitle": "bony podarunkowe",
+    "thanksTitle": "Dziękujemy za zakup!"
+  },
+  "abouthome": {
+    "title": "Kreatywność i zabawa w stylu kasynowym!",
+    "description": "Jesteśmy sklepem specjalizującym się w unikalnych zestawach konstrukcyjnych inspirowanych światem gier kasynowych, automatów i slotów online. Nasze produkty łączą kreatywność z tematyką gier hazardowych, pozwalając na budowanie unikalnych projektów. Gwarantujemy wysoką jakość naszych zestawów, które zainspirują zarówno fanów gier, jak i osoby szukające innowacyjnych form zabawy."
+  },
+  "aboutPage": {
+    "mainTitle": "Analiza rynku i popularność gier kasynowych",
+    "mainDesc": "Po szczegółowej analizie rynku zauważyliśmy, że tematy związane z grami hazardowymi, w tym slotami online oraz kasynami, zyskują ogromną popularność. Gry kasynowe i sloty online przyciągają coraz większą liczbę osób, co sprawia, że temat ten stał się istotnym trendem w branży rozrywkowej. Z tego powodu postanowiliśmy dostosować naszą ofertę, aby odpowiedzieć na rosnące zainteresowanie.",
+    "secondTitle": "Unikalne zestawy konstrukcyjne inspirowane kasynami",
+    "secondDesc": "W odpowiedzi na trendy rynkowe, wprowadziliśmy zestawy konstrukcyjne inspirowane światem gier kasynowych. Nasze produkty łączą kreatywność z motywami gier hazardowych, umożliwiając budowanie unikalnych projektów. Dbamy o wysoką jakość naszych zestawów, wierząc, że przypadną one do gustu zarówno fanom gier online, jak i osobom poszukującym innowacyjnych form rozrywki.",
+    "therdTitle": "Nowoczesne podejście do kreatywnej zabawy",
+    "therdDesc": "Nasze zestawy konstrukcyjne to nie tylko inspiracja światem kasyn, ale także nowoczesna forma rozrywki, która pobudza wyobraźnię i kreatywność. Dzięki nim każdy może stworzyć unikalną konstrukcję, czerpiąc radość z budowania w oparciu o motywy gier hazardowych. To idealne połączenie zabawy i innowacyjności!"
+  },
+  "certificates": {
+    "title": "Podaruj mini-kasyno na święta!",
+    "description": "Zbliżają się święta, a Ty szukasz wyjątkowego prezentu? Nasze zestawy LEGO inspirowane światem kasyn i automatów do gier to idealny wybór! Podaruj swojemu przyjacielowi lub bliskiej osobie możliwość zbudowania własnego mini-kasyna, pełnego emocji i zabawy. To doskonały sposób na połączenie kreatywności z fascynującym światem gier hazardowych. Niezależnie czy to na Nowy Rok, urodziny czy inne okazje – nasza karta podarunkowa to gwarancja niezapomnianych chwil i świetnej rozrywki!"
+  },
+  "towary": {
+    "cardTitle1": "Zamek Hogwart – Hotel-Kasyno",
+    "cardDesc1": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",
+
+    "cardTitle2": "Góra Creepera – Mini-Kasyno",
+    "cardDesc2": "Odkryj podziemne mini-kasyno ukryte w górze Creepera. Stwórz własną hazardową strefę w stylu Minecrafta, gdzie gracze mogą mierzyć się w różnych wyzwaniach, zdobywając cenne bloki. Doskonała zabawa dla fanów gry Minecraft i świata kasyn.",
+
+    "cardTitle3": "Budowa w mieście – Kasyno w budowie",
+    "cardDesc3": "Buduj największe kasyno w mieście LEGO City! Pomóż rozwijać centrum rozrywki, stawiając nowe budynki i tworząc luksusowe kasyno, które przyciągnie gości z całego świata. Twoje miasto potrzebuje nowej strefy hazardowej!",
+
+    "cardTitle4": "Willa przy plaży – Resort-Kasyno",
+    "cardDesc4": "Stwórz własny nadmorski resort-kasyno z willą przy plaży. Zestaw pozwala na zaprojektowanie ekskluzywnej posiadłości z basenami, strefą hazardową i luksusowymi pokojami. Kasyno na plaży to idealne miejsce na wakacyjny relaks i grę.",
+
+    "cardTitle5": "Stacja benzynowa – Przystanek przy kasynie",
+    "cardDesc5": "Zbuduj stację benzynową, która obsługuje gości pobliskiego kasyna. Każdy gracz musi gdzieś zatankować przed wielką rozgrywką! Ułatw życie mieszkańcom LEGO City, którzy wybierają się na wieczór pełen hazardu.",
+
+    "cardTitle6": "Remiza strażacka – Straż przy kasynie",
+    "cardDesc6": "Strażacy LEGO City są zawsze gotowi do akcji w nowym kasynie miasta. Zabezpiecz swoje kasyno przed pożarami i bądź bohaterem, który zapewni bezpieczeństwo gościom podczas ich hazardowych przygód.",
+
+    "cardTitle7": "nazwa",
+    "cardDesc7": "opis",
+
+    "cardTitle8": "nazwa",
+    "cardDesc8": "opis",
+
+    "cardTitle9": "nazwa",
+    "cardDesc9": "opis",
+
+    "cardTitle10": "nazwa",
+    "cardDesc10": "opis",
+
+    "cardBtn": "w koszyku",
+    "cardQuantity": "Numer",
+    "cardPrice": "Cena"
+  },
+  "buttons": {
+    "toCatalog": "do katalogu",
+    "goHome": "Na głównym"
+  },
+  "payment": {
     "mainTitle": "Opłata i dostawa",
 
     "title1": "Metody płatności",
@@ -88,7 +90,7 @@
     "item7": "Dostawa międzynarodowa (5-10 dni roboczych, w zależności od kraju)"
   },
   "rules": {
-    "mainitle": "Regulamin korzystania z Platformy",
+    "mainTitle": "Regulamin korzystania z Platformy",
 
     "title1": "1. Postanowienia ogólne",
     "title2": "2. Rejestracja i dane osobowe",
@@ -176,23 +178,22 @@
     "text5": "Jesteśmy dostępni od poniedziałku do piątku w godzinach 9:00 - 17:00. Staramy się odpowiadać na wiadomości e-mail w ciągu 24 godzin.",
     "text6": "Sprawdź naszą lokalizację na mapie poniżej:"
   },
-    "footer": {
-      "text1": "główny",
-      "text2": "o nas",
-      "text3": "katalog",
-      "text4": "bony podarunkowe",
-      "text5": "kontant",
+  "footer": {
+    "text1": "główny",
+    "text2": "o nas",
+    "text3": "katalog",
+    "text4": "bony podarunkowe",
+    "text5": "kontant",
 
-      "link1": "o nas",
-      "link2": "katalog",
-      "link3": "nasza historia",
-      "link4": "wszystkie towary",
-      "link5": "certyfikaty elektroniczne",
-      "link6": "łączność",
-      "link7": "Regulamin korzystania z Platformy",
-      "link8": "Gwarancja i zwroty",
-      "link9": "Opłata i dostawa",
-      "link10": "Polityka prywatności"
-    }
+    "link1": "o nas",
+    "link2": "katalog",
+    "link3": "nasza historia",
+    "link4": "wszystkie towary",
+    "link5": "certyfikaty elektroniczne",
+    "link6": "łączność",
+    "link7": "Regulamin korzystania z Platformy",
+    "link8": "Gwarancja i zwroty",
+    "link9": "Opłata i dostawa",
+    "link10": "Polityka prywatności"
   }
-  
+}

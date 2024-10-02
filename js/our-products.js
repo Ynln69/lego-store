@@ -1,28 +1,25 @@
 import { addToCart } from "./cart.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-  const productsPerPage = 6; // Кількість товарів на сторінці
-  let currentPage = 1; // Поточна сторінка
+  const productsPerPage = 6; 
+  let currentPage = 1; 
 
-  // Завантажуємо продукти і додаємо логіку для кнопок "Додати до корзини"
+
   fetch("./products-data.json")
     .then((response) => response.json())
     .then((data) => {
       const productsList = document.getElementById("our-products");
       const paginationContainer = document.getElementById("pagination");
 
-      // Перевіряємо, чи елемент продуктів існує
       if (!productsList) {
         return;
       }
 
-      // Перевіряємо, на якій сторінці ми знаходимось
       const isHomePage = window.location.pathname.includes("index.html");
       const productsToShow = isHomePage
         ? data.products.slice(0, 3)
         : data.products;
 
-      // Функція для відображення товарів на поточній сторінці
       function displayProducts(page) {
         productsList.innerHTML = "";
         const start = (page - 1) * productsPerPage;

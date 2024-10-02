@@ -14,3 +14,6 @@
   padding-top: clamp(20px, calc(10px + 5vw), 64px);
   padding-bottom: clamp(20px, calc(10px + 5vw), 64px);
 }
+.other-section {
+  padding-top: 120px;
+}

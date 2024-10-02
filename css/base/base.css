@@ -6,5 +6,6 @@ body {
 
   color: #1e1e1e;
   font-family: var(--font-family);
+  font-size: 16px;
   font-weight: 400;
 }
