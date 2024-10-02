@@ -1,0 +1,26 @@
+.cart-list {
+  display: grid;
+  gap: 48px;
+}
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 14px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding: 24px;
+    gap: 24px;
+  }
+}
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.cart-btn {
+  margin-right: auto;
+  margin-left: auto;
+}

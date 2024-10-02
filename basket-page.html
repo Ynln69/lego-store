@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/favicon1.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koszyk</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="../index.html" class="header-logo"
+          ><img src="./img/logo.png" alt="logo of site"
+        /></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">główny</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about-us-page.html"> o nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./our-products-page.html">katalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gift-certificates-page.html">
+                bony podarunkowe</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="language-switcher">
+          <button id="lang-pl" class="lang-btn">PL</button>
+          <button id="lang-en" class="lang-btn">EN</button>
+        </div>
+        <a href="../basket-page.html" class="header-button">
+          <svg width="24" height="24">
+            <use href="./img/icon/icon-defs.svg#icon-shopping-cart"></use>
+          </svg>
+          <span id="cart-count" class="cart-count"></span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container cart-container">
+          <ul id="cart-list" class="cart-list"></ul>
+          <button type="button" class="basket-btn cart-btn" id="openModalBtn">
+            składać zamówienie
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <p class="footer-item-text">główny</p>
+              <a href="#about" class="footer-item-link">o nas</a>
+              <a href="#products" class="footer-item-link">katalog</a>
+              <a href="#certificates" class="footer-item-link"
+                >bony podarunkowe</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">o nas</p>
+              <a href="./pages/about-us-page.html" class="footer-item-link">
+                nasza historia</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">katalog</p>
+              <a href="./pages/our-products-page.html" class="footer-item-link">
+                wszystkie towary</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">bony podarunkowe</p>
+              <a
+                href="./pages/gift-certificates-page.html"
+                class="footer-item-link"
+                >certyfikaty elektroniczne</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">łączność</p>
+              <a href="tel:+380173727477" class="footer-item-link"
+                >+38(017)372-74-77</a
+              >
+              <a
+                href="mailto:legoslotgameshop@icloud.com"
+                class="footer-item-link"
+                >legoslotgameshop@icloud.com</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-text">
+          © Sklep-internetowy «legoslotgameshop.com™» 2001–2024.
+        </p>
+      </div>
+    </footer>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="orderForm" class="modal-form">
+          <label for="name" class="form-label">Pełne imię i nazwisko</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="form-input"
+            placeholder="Wpisz swoje pełne imię i nazwisko"
+            required
+          />
+
+          <label for="email" class="form-label">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-input"
+            placeholder="Wpisz swój adres e-mail"
+            required
+          />
+
+          <label for="phone" class="form-label">Numer telefonu:</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-input"
+            placeholder="Wpisz numer telefonu"
+            required
+          />
+
+          <label for="delivery" class="form-label">Sposób dostawy:</label>
+          <select id="delivery" name="delivery" class="form-input" required>
+            <option value="delivery">Dostawa</option>
+            <option value="pickup">Ulec poprawie</option>
+          </select>
+
+          <label for="comment" class="form-label">Komentarz:</label>
+          <textarea
+            id="comment"
+            name="comment"
+            class="form-input"
+            placeholder="Zostaw komentarz"
+          ></textarea>
+
+          <button type="submit" class="basket-btn form-btn">Potwierdzać</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="./js/cart.js"></script>
+    <script type="module" src="./js/cart-count.js"></script>
+    <script type="module" src="./js/modal-form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./public/favicon1.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lego Slot Game Shop</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <a href="../index.html" class="header-logo"
+          ><img src="./img/logo.png" alt="logo of site"
+        /></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">główny</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about-us-page.html"> o nas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./our-products-page.html">katalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gift-certificates-page.html">
+                bony podarunkowe</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="language-switcher">
+          <button id="lang-pl" class="lang-btn">PL</button>
+          <button id="lang-en" class="lang-btn">EN</button>
+        </div>
+        <a href="../basket-page.html" class="header-button">
+          <svg width="24" height="24">
+            <use href="./img/icon/icon-defs.svg#icon-shopping-cart"></use>
+          </svg>
+          <span id="cart-count" class="cart-count"></span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero-home">
+        <div class="hero-container">
+          <h1 class="hero-title" data-translate="hero.homeTitle">
+            lego slot game shop
+          </h1>
+          <a
+            href="./our-products-page.html"
+            class="hero-link"
+            data-translate="buttons.toCatalog"
+            >do katalogu</a
+          >
+        </div>
+      </section>
+      <section class="about-us section" id="about">
+        <div class="container about-us-container">
+          <img src="./img/about-img.jpg" alt="" class="about-us-img" />
+          <div class="about-us-wrapper">
+            <h2
+              class="about-us-title main-title"
+              data-translate="abouthome.title"
+            >
+              Kreatywność i zabawa w stylu kasynowym!
+            </h2>
+            <p class="about-us-text" data-translate="abouthome.description">
+              Jesteśmy sklepem specjalizującym się w unikalnych zestawach
+              konstrukcyjnych inspirowanych światem gier kasynowych, automatów i
+              slotów online. Nasze produkty łączą kreatywność z tematyką gier
+              hazardowych, pozwalając na budowanie unikalnych projektów.
+              Gwarantujemy wysoką jakość naszych zestawów, które zainspirują
+              zarówno fanów gier, jak i osoby szukające innowacyjnych form
+              zabawy.
+            </p>
+            <a href="../about-us-page.html" class="main-link">bliższy</a>
+          </div>
+        </div>
+      </section>
+      <section class="certificates section" id="certificates">
+        <div class="container certificates-container">
+          <div class="certificates-wrapper">
+            <h2 class="main-title" data-translate="certificates.title">
+              Podaruj mini-kasyno na święta!
+            </h2>
+            <p
+              class="certificates-text"
+              data-translate="certificates.description"
+            >
+              Zbliżają się święta, a Ty szukasz wyjątkowego prezentu? Nasze
+              zestawy LEGO inspirowane światem kasyn i automatów do gier to
+              idealny wybór! Podaruj swojemu przyjacielowi lub bliskiej osobie
+              możliwość zbudowania własnego mini-kasyna, pełnego emocji i
+              zabawy. To doskonały sposób na połączenie kreatywności z
+              fascynującym światem gier hazardowych. Niezależnie czy to na Nowy
+              Rok, urodziny czy inne okazje – nasza karta podarunkowa to
+              gwarancja niezapomnianych chwil i świetnej rozrywki!
+            </p>
+            <a href="../gift-certificates-page.html" class="main-link"
+              >bliższy</a
+            >
+          </div>
+          <img
+            src="../img/certificate-about.jpg"
+            alt=""
+            class="certificates-img"
+          />
+        </div>
+      </section>
+      <section class="section" id="products">
+        <div class="container">
+          <h2 class="our-products-title main-title">nasze towary</h2>
+          <ul id="our-products" class="our-products-list"></ul>
+          <a href="./our-products-page.html" class="our-products-link main-link"
+            >przejdź do katalogu</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <p class="footer-item-text">główny</p>
+              <a href="#about" class="footer-item-link">o nas</a>
+              <a href="#products" class="footer-item-link">katalog</a>
+              <a href="#certificates" class="footer-item-link"
+                >bony podarunkowe</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">o nas</p>
+              <a href="./pages/about-us-page.html" class="footer-item-link">
+                nasza historia</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">katalog</p>
+              <a href="./pages/our-products-page.html" class="footer-item-link">
+                wszystkie towary</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">bony podarunkowe</p>
+              <a
+                href="./pages/gift-certificates-page.html"
+                class="footer-item-link"
+                >certyfikaty elektroniczne</a
+              >
+            </li>
+            <li class="footer-nav-item">
+              <p class="footer-item-text">łączność</p>
+              <a href="tel:+380173727477" class="footer-item-link"
+                >+38(017)372-74-77</a
+              >
+              <a
+                href="mailto:legoslotgameshop@icloud.com"
+                class="footer-item-link"
+                >legoslotgameshop@icloud.com</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-text">
+          © Sklep-internetowy «legoslotgameshop.com™» 2001–2024.
+        </p>
+      </div>
+    </footer>
+    
+    <script type="module" src="./js/translator.js"></script>
+    <script type="module" src="./js/our-products.js"></script>
+    <script type="module" src="./js/cart.js"></script>
+    <script type="module" src="./js/cart-count.js"></script>
+    
+    <script src="https://unpkg.com/i18next@21.6.11/dist/umd/i18next.min.js"></script>
+  </body>
+</html>
