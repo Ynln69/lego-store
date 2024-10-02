@@ -27,9 +27,6 @@
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 32px;
   margin-bottom: 48px;
-  @media (min-width: 768px) {
-    gap: 48px;
-  }
 }
 .certificates-item {
   display: flex;
