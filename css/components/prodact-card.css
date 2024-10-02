@@ -1,3 +1,6 @@
+.product-section {
+  padding-top: 120px;
+}
 .product-card-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
