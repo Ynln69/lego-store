@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
 .header-logo {
   display: block;
@@ -55,5 +55,9 @@
 }
 
 .lang-btn:hover {
-  text-decoration: underline;
+  border-radius: 8px;
+  padding: 8px 12px;
+
+  background-color: #2c2c2c;
+  color: #f5f5f5;
 }

@@ -22,9 +22,11 @@
   padding: 24px;
 
   transition: transform, background-color 0.3s ease;
-  &:hover {
-    transform: scale(1.1);
-    background-color: #d9d9d9;
+  @media (min-width: 768px) {
+    &:hover {
+      transform: scale(1.1);
+      background-color: #d9d9d9;
+    }
   }
 }
 

@@ -1,19 +1,17 @@
 import { renderCartItems } from "./cart.js";
-// Функція для оновлення кількості товарів у корзині
+
 function updateCartCount() {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  const totalCount = cart.reduce((acc, item) => acc + item.quantity, 0); // Рахуємо загальну кількість товарів
+  const totalCount = cart.reduce((acc, item) => acc + item.quantity, 0);
   const cartCountElement = document.getElementById("cart-count");
   cartCountElement.textContent = totalCount;
 }
 
-// Оновлюємо кількість товарів при завантаженні сторінки
 document.addEventListener("DOMContentLoaded", () => {
   updateCartCount();
   renderCartItems();
 });
 
-// Оновлюємо функцію додавання товару до корзини
 export function addToCart(product) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
   const existingProduct = cart.find((item) => item.id === product.id);
@@ -31,7 +29,7 @@ export function addToCart(product) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert(`${product.title} було додано до корзини!`);
+  alert(`${product.title} został dodany do koszyka!`);
 
   updateCartCount();
 }

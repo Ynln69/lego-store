@@ -15,7 +15,7 @@ export function addToCart(product) {
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));
-  alert(`${product.title} було додано до корзини!`);
+  alert(`${product.title} został dodany do koszyka!`);
 }
 
 export function renderCartItems() {
@@ -39,7 +39,7 @@ export function renderCartItems() {
 
     li.innerHTML = `
         ${photoMarkup}
-        <div>
+        <div class="cart-wrapper">
           <h3 class="cart-title" data-translate="${translateKeyTitle}">${item.title}</h3>
           <p>Numer: ${item.quantity}</p>
           <p>Cena: ${item.price}</p>

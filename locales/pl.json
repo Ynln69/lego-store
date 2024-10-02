@@ -27,6 +27,22 @@
     "title": "Podaruj mini-kasyno na święta!",
     "description": "Zbliżają się święta, a Ty szukasz wyjątkowego prezentu? Nasze zestawy LEGO inspirowane światem kasyn i automatów do gier to idealny wybór! Podaruj swojemu przyjacielowi lub bliskiej osobie możliwość zbudowania własnego mini-kasyna, pełnego emocji i zabawy. To doskonały sposób na połączenie kreatywności z fascynującym światem gier hazardowych. Niezależnie czy to na Nowy Rok, urodziny czy inne okazje – nasza karta podarunkowa to gwarancja niezapomnianych chwil i świetnej rozrywki!"
   },
+  "certificatesCard": {
+    "title1": "Kasyno Konstruktor – Zbuduj Własny Świat Hazardu!",
+    "desc1": "Certyfikat, który pozwala na stworzenie unikalnego kasyna z klocków LEGO, pełnego zabawy i wyzwań hazardowych!",
+
+    "title2": "Slotowa Willa – Resort dla Mistrzów Gry!",
+    "desc2": "Zbuduj luksusowy ośrodek slotowy z LEGO, w którym gracze mogą odpocząć i spróbować swoich sił w automatach.",
+
+    "title3": "Miasto Slotów – Buduj i Wygrywaj!",
+    "desc3": "Otwórz własne kasyno w sercu LEGO City i rywalizuj w fascynujących grach slotowych.",
+
+    "title4": "Jackpotowy Zamek – Skarbiec Zwycięzców!",
+    "desc4": " Zbuduj imponujący zamek, w którym każdy zakątek kryje emocje hazardu i szansę na wielki jackpot!",
+
+    "cardBtn": "w koszyku"
+  },
+
   "towary": {
     "cardTitle1": "Zamek Hogwart – Hotel-Kasyno",
     "cardDesc1": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",

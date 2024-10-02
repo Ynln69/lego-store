@@ -23,6 +23,11 @@
   flex-direction: column;
   gap: 48px;
 }
+.cart-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 .cart-btn {
   margin-right: auto;
   margin-left: auto;

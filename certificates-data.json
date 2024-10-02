@@ -1,30 +1,30 @@
 {
     "certificates": [
         {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
+            "title": "Kasyno Konstruktor – Zbuduj Własny Świat Hazardu!",
+            "description": "Certyfikat, który pozwala na stworzenie unikalnego kasyna z klocków LEGO, pełnego zabawy i wyzwań hazardowych!",
+            "price": "750",
             "button": "w koszyku",
             "id": "1"
           },
           {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
+            "title": "Slotowa Willa – Resort dla Mistrzów Gry!",
+            "description": "Zbuduj luksusowy ośrodek slotowy z LEGO, w którym gracze mogą odpocząć i spróbować swoich sił w automatach.",
+            "price": "600",
             "button": "w koszyku",
             "id": "2"
           },
           {
-            "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
+            "title": "Miasto Slotów – Buduj i Wygrywaj!",
+            "description": "Otwórz własne kasyno w sercu LEGO City i rywalizuj w fascynujących grach slotowych.",
+            "price": "800",
             "button": "w koszyku",
             "id": "3"
           },
           {
-           "title": "Nazwa certyfikatu",
-            "description": "Opis produktu",
-            "price": "500  PLN",
+           "title": "Jackpotowy Zamek – Skarbiec Zwycięzców!",
+            "description": "Zbuduj imponujący zamek, w którym każdy zakątek kryje emocje hazardu i szansę na wielki jackpot!",
+            "price": "900",
             "button": "w koszyku",
             "id": "4"
           }

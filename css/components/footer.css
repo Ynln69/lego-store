@@ -12,8 +12,9 @@
   gap: 20px;
   @media (min-width: 768px) {
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: normal;
-    gap: 0;
+    row-gap: 20px;
   }
 }
 .footer-nav-item {

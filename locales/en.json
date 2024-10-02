@@ -27,6 +27,22 @@
     "title": "Give the gift of a mini-casino for the holidays!",
     "description": "The holidays are approaching and you are looking for a unique gift?Our LEGO sets inspired by the world of casinos and slot machines are the perfect choice!Give your friend or loved one the opportunity to build their own mini-casino, full of excitement and fun.It is a great way to combine creativity with the fascinating world of gambling. Regardless of whether it is for the New Year, birthday or other occasions - our gift card is a guarantee of unforgettable moments and great entertainment!"
   },
+  "certificatesCard": {
+  "title1": "Casino Constructor – Build Your Own Gambling World!",
+  "desc1": "A certificate that allows you to create a unique casino out of LEGO bricks, full of fun and gambling challenges!",
+
+  "title2": "Slot Villa – Resort for Gaming Masters!",
+  "desc2": "Build a luxurious slot resort from LEGO, where players can relax and try their luck at slot machines.",
+
+  "title3": "Slot City – Build and Win!",
+  "desc3": "Open your own casino in the heart of LEGO City and compete in exciting slot games.",
+
+  "title4": "Jackpot Castle – Treasure of Winners!",
+  "desc4": "Build an impressive castle, where every corner holds the thrill of gambling and the chance to hit the jackpot!",
+
+  "cardBtn": "in the cart"
+},
+
   "towary": {
     "cardTitle1": "Hogwarts Castle – Hotel Casino",
     "cardDesc1": "Build your own magical hotel-casino at Hogwarts Castle. Design rooms for wizards and create an exclusive casino area where magic mixes with gambling games. A perfect choice for Harry Potter fans who want to immerse themselves in a world full of entertainment.",
