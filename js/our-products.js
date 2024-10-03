@@ -4,10 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const productsPerPage = 6; 
   let currentPage = 1; 
 
-
   fetch("./products-data.json")
     .then((response) => response.json())
     .then((data) => {
+      let productsData = data.products;  // Зберігаємо продукти для подальшого використання
       const productsList = document.getElementById("our-products");
       const paginationContainer = document.getElementById("pagination");
 
@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const isHomePage = window.location.pathname.includes("index.html");
       const productsToShow = isHomePage
-        ? data.products.slice(0, 3)
-        : data.products;
+        ? productsData.slice(0, 3)
+        : productsData;
 
       function displayProducts(page) {
         productsList.innerHTML = "";
@@ -38,13 +38,14 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="../product-page.html?id=${product.id}">
             <img src="${product.photo}" alt="${product.title}" class="products-item-img">
             <div class="products-item-thumb">
-              <h3 class="products-item-title" data-translate="${translateKeyTitle}">${product.title}</h3>
-              <p class="products-item-desk" data-translate="${translateKeyDesc}">${product.description}</p>
+              <h3 class="products-item-title" data-translate="${translateKeyTitle}">${i18next.t(translateKeyTitle)}</h3>
+              <p class="products-item-desk" data-translate="${translateKeyDesc}">${i18next.t(translateKeyDesc)}</p>
             </div>
             </a>
             <div class="products-item-wrapper">
               <p class="products-item-price">${product.price} PLN</p>
-              <button type="button" class="basket-btn" data-id="${product.id}" data-translate="${translateKeyBtn}">${product.button}
+              <button type="button" class="basket-btn" data-id="${product.id}" data-translate="${translateKeyBtn}">
+                ${i18next.t(translateKeyBtn)}
                 <svg width="16" height="16">
                   <use href="../img/icon/icon-defs.svg#icon-shopping-cart"></use>
                 </svg>
@@ -62,7 +63,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Функція для відображення кнопок пагінації
       function setupPagination() {
-        // Перевіряємо, чи існує елемент пагінації
         if (!paginationContainer) {
           return;
         }
@@ -87,13 +87,17 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       }
 
-      // Якщо не головна сторінка, додаємо пагінацію
       if (!isHomePage) {
         displayProducts(currentPage);
         setupPagination();
       } else {
-        displayProducts(1); // Для головної сторінки просто показуємо перші 3 товари
+        displayProducts(1);
       }
+
+      // Додаємо обробник для зміни мови
+      i18next.on("languageChanged", function () {
+        displayProducts(currentPage);  // Оновлюємо картки при зміні мови
+      });
     })
     .catch((error) => console.error("Помилка при завантаженні JSON:", error));
 });

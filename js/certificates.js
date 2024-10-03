@@ -15,12 +15,12 @@ fetch("./certificates-data.json")
       const translateKeyBtn = `certificatesCard.cardBtn`;
 
       li.innerHTML = `
-        <h3 class="certificates-item-title" data-translate="${translateKeyTitle}">${certificate.title}</h3>
+        <h3 class="certificates-item-title" data-translate="${translateKeyTitle}">${i18next.t(translateKeyTitle)}</h3>
         <div class="certificates-item-thumb">
           <p class="certificates-item-price">${certificate.price} PLN</p>
-          <p class="certificates-item-desk" data-translate="${translateKeyDesc}">${certificate.title}>${certificate.description}</p>
+          <p class="certificates-item-desk" data-translate="${translateKeyDesc}">${i18next.t(translateKeyDesc)}</p>
         </div>
-        <button type="button" class="basket-btn" data-translate="${translateKeyBtn}">${certificate.button}
+        <button type="button" class="basket-btn" data-translate="${translateKeyBtn}">${i18next.t(translateKeyBtn)}
           <svg width="16" height="16">
             <use href="../img/icon/icon-defs.svg#icon-shopping-cart"></use>
           </svg>
@@ -37,6 +37,14 @@ fetch("./certificates-data.json")
           price: certificate.price,
           quantity: 1,
         });
+      });
+    });
+
+    // Викликаємо переклад для динамічно доданих елементів після рендерингу
+    i18next.on('languageChanged', () => {
+      document.querySelectorAll('[data-translate]').forEach((element) => {
+        const key = element.getAttribute('data-translate');
+        element.textContent = i18next.t(key);
       });
     });
   })
