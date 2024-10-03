@@ -1,13 +1,12 @@
 const savedLanguage = localStorage.getItem("language") || "pl";
 
-// Підключення i18next
 i18next.use(i18nextXHRBackend).init(
   {
     lng: savedLanguage,
     fallbackLng: "pl",
     debug: true,
     backend: {
-      loadPath: "./locales/{{lng}}.json",
+      loadPath: "../locales/{{lng}}.json",
     },
   },
   function (err, t) {

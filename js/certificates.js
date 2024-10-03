@@ -1,7 +1,7 @@
 import { addToCart } from "./cart.js";
 
 // Функція для завантаження даних з JSON
-fetch("./certificates-data.json")
+fetch("../certificates-data.json")
   .then((response) => response.json())
   .then((data) => {
     const certificatesList = document.getElementById("certificates-list");
