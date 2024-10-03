@@ -1,85 +1,84 @@
-
 {
-    "products": [
-        {
-            "id": 1,
-            "photo": "./img/product-card/card-1.jpg",
-            "title": "Zamek Hogwart – Hotel-Kasyno",
-            "price": "599",
-            "description": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",
-            "button": "w koszyku"
-          },
-          {
-            "id": 2,
-            "photo": "./img/product-card/card-2.jpg",
-            "title": "Góra Creepera – Mini-Kasyno",
-            "price": "249",
-            "description": "Odkryj podziemne mini-kasyno ukryte w górze Creepera. Stwórz własną hazardową strefę w stylu Minecrafta, gdzie gracze mogą mierzyć się w różnych wyzwaniach, zdobywając cenne bloki. Doskonała zabawa dla fanów gry Minecraft i świata kasyn.",
-            "button": "w koszyku"
-          },
-          {
-            "id": 3,
-            "photo": "./img/product-card/card-3.jpg",
-            "title": "Budowa w mieście – Kasyno w budowie",
-            "price": "399",
-            "description": "Buduj największe kasyno w mieście LEGO City! Pomóż rozwijać centrum rozrywki, stawiając nowe budynki i tworząc luksusowe kasyno, które przyciągnie gości z całego świata. Twoje miasto potrzebuje nowej strefy hazardowej!",
-            "button": "w koszyku"
-          },
-          {
-            "id": 4,
-            "photo": "./img/product-card/card-4.jpg",
-            "title": "Willa przy plaży – Resort-Kasyno",
-            "price": "349",
-            "description": "Stwórz własny nadmorski resort-kasyno z willą przy plaży. Zestaw pozwala na zaprojektowanie ekskluzywnej posiadłości z basenami, strefą hazardową i luksusowymi pokojami. Kasyno na plaży to idealne miejsce na wakacyjny relaks i grę.",
-            "button": "w koszyku"
-          }, {
-            "id": 5,
-            "photo": "./img/product-card/card-5.jpg",
-            "title": "Stacja benzynowa – Przystanek przy kasynie",
-            "price": "199",
-            "description": "Zbuduj stację benzynową, która obsługuje gości pobliskiego kasyna. Każdy gracz musi gdzieś zatankować przed wielką rozgrywką! Ułatw życie mieszkańcom LEGO City, którzy wybierają się na wieczór pełen hazardu.",
-            "button": "w koszyku"
-          },
-          {
-            "id": 6,
-            "photo": "./img/product-card/card-6.jpg",
-            "title": "Remiza strażacka – Straż przy kasynie",
-            "price": "299",
-            "description": "Strażacy LEGO City są zawsze gotowi do akcji w nowym kasynie miasta. Zabezpiecz swoje kasyno przed pożarami i bądź bohaterem, który zapewni bezpieczeństwo gościom podczas ich hazardowych przygód.",
-            "button": "w koszyku"
-          } ,
-          {
-            "id": 7,
-            "photo": "./img/product-card/card-1.jpg",
-            "title": "Name",
-            "price": "7000",
-            "description": "description",
-            "button": "w koszyku"
-          },
-          {
-            "id": 8,
-            "photo": "./img/product-card/card-1.jpg",
-            "title": "Name",
-            "price": "9000",
-            "description": "description",
-            "button": "w koszyku"
-          },
-          {
-            "id": 9,
-            "photo": "./img/product-card/card-1.jpg",
-            "title": "Name",
-            "price": "10000",
-            "description": "description",
-            "button": "w koszyku"
-          },
-          {
-            "id": 10,
-            "photo": "./img/product-card/card-1.jpg",
-            "title": "Name",
-            "price": "11000",
-            "description": "description",
-            "button": "w koszyku"
-          }
-    ]
-  }
-  
+  "products": [
+    {
+      "id": 1,
+      "photo": "./img/product-card/card-1.jpg",
+      "title": "Zamek Hogwart – Hotel-Kasyno",
+      "price": "599",
+      "description": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 2,
+      "photo": "./img/product-card/card-2.jpg",
+      "title": "Góra Creepera – Mini-Kasyno",
+      "price": "249",
+      "description": "Odkryj podziemne mini-kasyno ukryte w górze Creepera. Stwórz własną hazardową strefę w stylu Minecrafta, gdzie gracze mogą mierzyć się w różnych wyzwaniach, zdobywając cenne bloki. Doskonała zabawa dla fanów gry Minecraft i świata kasyn.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 3,
+      "photo": "./img/product-card/card-3.jpg",
+      "title": "Budowa w mieście – Kasyno w budowie",
+      "price": "399",
+      "description": "Buduj największe kasyno w mieście LEGO City! Pomóż rozwijać centrum rozrywki, stawiając nowe budynki i tworząc luksusowe kasyno, które przyciągnie gości z całego świata. Twoje miasto potrzebuje nowej strefy hazardowej!",
+      "button": "w koszyku"
+    },
+    {
+      "id": 4,
+      "photo": "./img/product-card/card-4.jpg",
+      "title": "Willa przy plaży – Resort-Kasyno",
+      "price": "349",
+      "description": "Stwórz własny nadmorski resort-kasyno z willą przy plaży. Zestaw pozwala na zaprojektowanie ekskluzywnej posiadłości z basenami, strefą hazardową i luksusowymi pokojami. Kasyno na plaży to idealne miejsce na wakacyjny relaks i grę.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 5,
+      "photo": "./img/product-card/card-5.jpg",
+      "title": "Stacja benzynowa – Przystanek przy kasynie",
+      "price": "199",
+      "description": "Zbuduj stację benzynową, która obsługuje gości pobliskiego kasyna. Każdy gracz musi gdzieś zatankować przed wielką rozgrywką! Ułatw życie mieszkańcom LEGO City, którzy wybierają się na wieczór pełen hazardu.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 6,
+      "photo": "./img/product-card/card-6.jpg",
+      "title": "Remiza strażacka – Straż przy kasynie",
+      "price": "299",
+      "description": "Strażacy LEGO City są zawsze gotowi do akcji w nowym kasynie miasta. Zabezpiecz swoje kasyno przed pożarami i bądź bohaterem, który zapewni bezpieczeństwo gościom podczas ich hazardowych przygód.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 7,
+      "photo": "./img/product-card/card-7.jpg",
+      "title": "Chatka na stoku – Kasyno Górskiee",
+      "price": "899",
+      "description": "Stwórz swoje własne górskie kasyno z LEGO, ukryte w malowniczej chatce. Odkryj świat hazardu w otoczeniu natury, pełen emocji i wyzwań! Zbuduj elegancki resort i stwórz miejsce, gdzie hazard łączy się z relaksem.",
+      "button": "w koszyku"
+    },
+    {
+      "id": 8,
+      "photo": "./img/product-card/card-8.jpg",
+      "title": "Zamek Smoka – Legendarne Kasyno",
+      "price": "799",
+      "description": "Zbuduj potężny zamek, w którym odbywają się najbardziej ekskluzywne gry hazardowe. Odkryj sekrety ukryte w lochach zamku, gdzie tylko najodważniejsi mogą wygrać legendarny jackpot!",
+      "button": "w koszyku"
+    },
+    {
+      "id": 9,
+      "photo": "./img/product-card/card-9.jpg",
+      "title": "Kasyno Doktora Strange – Magia i Hazard",
+      "price": "1099",
+      "description": "Wkrocz w magiczny świat kasyna z Doktorem Strange! Buduj niesamowite struktury pełne zaklęć i nieoczekiwanych wyzwań. W tym kasynie wszystko może się zdarzyć – od magii po niezwykłe wygrane!",
+      "button": "w koszyku"
+    },
+    {
+      "id": 10,
+      "photo": "./img/product-card/card-10.jpg",
+      "title": "Miasteczko Kasynowe – Przygodowa Przygoda",
+      "price": "11000",
+      "description": "Zbuduj swoje własne miasto kasynowe w stylu LEGO! Stwórz kasyna, restauracje i hotele, w których gracze z całego świata mogą próbować swojego szczęścia. Pełne życia i zabawy miasteczko czeka na budowniczych!",
+      "button": "w koszyku"
+    }
+  ]
+}
