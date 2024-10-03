@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("./products-data.json")
     .then((response) => response.json())
     .then((data) => {
-      let productsData = data.products;  // Зберігаємо продукти для подальшого використання
+      let productsData = data.products;  
       const productsList = document.getElementById("our-products");
       const paginationContainer = document.getElementById("pagination");
 
@@ -30,8 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
           const li = document.createElement("li");
           li.classList.add("our-products-item");
 
-          const translateKeyTitle = `towary.cardTitle${index + 1}`;
-          const translateKeyDesc = `towary.cardDesc${index + 1}`;
+          const translateKeyTitle = `towary.cardTitle${product.id}`; // Використовуємо id продукту замість index
+          const translateKeyDesc = `towary.cardDesc${product.id}`;
           const translateKeyBtn = `towary.cardBtn`;
 
           li.innerHTML = `
@@ -56,12 +56,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Додаємо обробник події для кнопки "Додати до корзини"
           li.querySelector(".basket-btn").addEventListener("click", () => {
-            addToCart(product);
+            addToCart({
+              id: product.id,
+              title: product.title,
+              photo: product.photo,
+              price: product.price,
+              quantity: 1,
+              type: 'product'  // Додаємо тип 'product'
+            });
           });
         });
       }
 
-      // Функція для відображення кнопок пагінації
       function setupPagination() {
         if (!paginationContainer) {
           return;
@@ -94,9 +100,8 @@ document.addEventListener("DOMContentLoaded", () => {
         displayProducts(1);
       }
 
-      // Додаємо обробник для зміни мови
       i18next.on("languageChanged", function () {
-        displayProducts(currentPage);  // Оновлюємо картки при зміні мови
+        displayProducts(currentPage);  
       });
     })
     .catch((error) => console.error("Помилка при завантаженні JSON:", error));

@@ -36,6 +36,7 @@ fetch("./certificates-data.json")
           title: certificate.title,
           price: certificate.price,
           quantity: 1,
+          type: 'certificate',
         });
       });
     });
