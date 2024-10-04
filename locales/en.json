@@ -28,21 +28,20 @@
     "description": "The holidays are approaching and you are looking for a unique gift?Our LEGO sets inspired by the world of casinos and slot machines are the perfect choice!Give your friend or loved one the opportunity to build their own mini-casino, full of excitement and fun.It is a great way to combine creativity with the fascinating world of gambling. Regardless of whether it is for the New Year, birthday or other occasions - our gift card is a guarantee of unforgettable moments and great entertainment!"
   },
   "certificatesCard": {
-  "title1": "Casino Constructor – Build Your Own Gambling World!",
-  "desc1": "A certificate that allows you to create a unique casino out of LEGO bricks, full of fun and gambling challenges!",
+    "title1": "Casino Constructor – Build Your Own Gambling World!",
+    "desc1": "A certificate that allows you to create a unique casino out of LEGO bricks, full of fun and gambling challenges!",
 
-  "title2": "Slot Villa – Resort for Gaming Masters!",
-  "desc2": "Build a luxurious slot resort from LEGO, where players can relax and try their luck at slot machines.",
+    "title2": "Slot Villa – Resort for Gaming Masters!",
+    "desc2": "Build a luxurious slot resort from LEGO, where players can relax and try their luck at slot machines.",
 
-  "title3": "Slot City – Build and Win!",
-  "desc3": "Open your own casino in the heart of LEGO City and compete in exciting slot games.",
+    "title3": "Slot City – Build and Win!",
+    "desc3": "Open your own casino in the heart of LEGO City and compete in exciting slot games.",
 
-  "title4": "Jackpot Castle – Treasure of Winners!",
-  "desc4": "Build an impressive castle, where every corner holds the thrill of gambling and the chance to hit the jackpot!",
+    "title4": "Jackpot Castle – Treasure of Winners!",
+    "desc4": "Build an impressive castle, where every corner holds the thrill of gambling and the chance to hit the jackpot!",
 
-  "cardBtn": "in the cart"
-},
-
+    "cardBtn": "in the cart"
+  },
   "towary": {
     "cardTitle1": "Hogwarts Castle – Hotel Casino",
     "cardDesc1": "Build your own magical hotel-casino at Hogwarts Castle. Design rooms for wizards and create an exclusive casino area where magic mixes with gambling games. A perfect choice for Harry Potter fans who want to immerse themselves in a world full of entertainment.",
@@ -62,21 +61,23 @@
     "cardTitle6": "Fire Station – Casino Fire Brigade",
     "cardDesc6": "LEGO City firefighters are always ready for action in the city's new casino. Secure your casino from fires and be the hero who ensures the safety of guests during their gambling adventures.",
 
-    "cardTitle7": "Chatka na stoku – Kasyno Górskie",
-    "cardDesc7": "Stwórz swoje własne górskie kasyno z LEGO, ukryte w malowniczej chatce. Odkryj świat hazardu w otoczeniu natury, pełen emocji i wyzwań! Zbuduj elegancki resort i stwórz miejsce, gdzie hazard łączy się z relaksem.",
+    "cardTitle7": "Slope Cabin – Mountain Casino",
+    "cardDesc7": "Create your own mountain casino with LEGO, hidden in a picturesque cabin. Discover the world of gambling surrounded by nature, full of excitement and challenges! Build an elegant resort and create a place where gambling meets relaxation.",
 
-    "cardTitle8": "Zamek Smoka – Legendarne Kasyno",
-    "cardDesc8": "Zbuduj potężny zamek, w którym odbywają się najbardziej ekskluzywne gry hazardowe. Odkryj sekrety ukryte w lochach zamku, gdzie tylko najodważniejsi mogą wygrać legendarny jackpot!",
+    "cardTitle8": "Dragon Castle – Legendary Casino",
+    "cardDesc8": "Build a powerful castle where the most exclusive gambling games take place. Uncover the secrets hidden in the castle's dungeons, where only the bravest can win the legendary jackpot!",
 
-    "cardTitle9": "Kasyno Doktora Strange – Magia i Hazard",
-    "cardDesc9": "Wkrocz w magiczny świat kasyna z Doktorem Strange! Buduj niesamowite struktury pełne zaklęć i nieoczekiwanych wyzwań. W tym kasynie wszystko może się zdarzyć – od magii po niezwykłe wygrane!",
+    "cardTitle9": "Doctor Strange's Casino – Magic and Gambling",
+    "cardDesc9": "Step into the magical world of the casino with Doctor Strange! Build amazing structures filled with spells and unexpected challenges. In this casino, anything can happen – from magic to incredible winnings!",
 
-    "cardTitle10": "Miasteczko Kasynowe – Przygodowa Przygoda",
-    "cardDesc10": "Zbuduj swoje własne miasto kasynowe w stylu LEGO! Stwórz kasyna, restauracje i hotele, w których gracze z całego świata mogą próbować swojego szczęścia. Pełne życia i zabawy miasteczko czeka na budowniczych!",
+    "cardTitle10": "Casino Town – Adventure Awaits",
+    "cardDesc10": "Build your own LEGO-style casino town! Create casinos, restaurants, and hotels where players from all over the world can try their luck. This lively, fun-filled town is waiting for builders!",
 
     "cardBtn": "Add to cart",
     "cardQuantity": "Quantity",
-    "cardPrice": "Price"
+    "cardPrice": "Price",
+    "mainTitle": "our products",
+    "mainBtn": "Go to the catalog"
   },
   "buttons": {
     "toCatalog": "to catalog",
@@ -193,6 +194,20 @@
     "text4": "Address: ul. Przykładowa 123, 00-001 Warsaw, Poland",
     "text5": "We are available Monday to Friday from 9:00 AM to 5:00 PM. We strive to respond to emails within 24 hours.",
     "text6": "Check our location on the map below:"
+  },
+  "thankYou": {
+    "heroText": "Your order has been placed. Order number:",
+    "bntText": "On the main page"
+  },
+  "basket": {
+    "label1": "Full name:",
+    "label3": "Phone number:",
+    "label4": "Delivery method:",
+    "label5": "Comment:",
+    "option1": "Delivery",
+    "option2": "To improve",
+    "formBtn": "To confirm",
+    "bntText": "place an order"
   },
   "footer": {
     "text1": "main",

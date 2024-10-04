@@ -42,7 +42,6 @@
 
     "cardBtn": "w koszyku"
   },
-
   "towary": {
     "cardTitle1": "Zamek Hogwart – Hotel-Kasyno",
     "cardDesc1": "Zbuduj własny magiczny hotel-kasyno w Zamku Hogwart. Zaprojektuj pokoje dla czarodziejów i stwórz ekskluzywną strefę kasynową, gdzie czary mieszają się z grami hazardowymi. Doskonały wybór dla fanów Harry'ego Pottera, którzy chcą przenieść się do świata pełnego rozrywki.",
@@ -76,7 +75,9 @@
 
     "cardBtn": "w koszyku",
     "cardQuantity": "Numer",
-    "cardPrice": "Cena"
+    "cardPrice": "Cena",
+    "mainTitle": "nasze towary",
+    "mainBtn": "przejdź do katalogu"
   },
   "buttons": {
     "toCatalog": "do katalogu",
@@ -193,6 +194,20 @@
     "text4": "Adres: ul. Przykładowa 123, 00-001 Warszawa, Polska",
     "text5": "Jesteśmy dostępni od poniedziałku do piątku w godzinach 9:00 - 17:00. Staramy się odpowiadać na wiadomości e-mail w ciągu 24 godzin.",
     "text6": "Sprawdź naszą lokalizację na mapie poniżej:"
+  },
+  "thankYou": {
+    "heroText": "Twoje zamówienie zostało złożone. Numer zamówienia:",
+    "bntText": "Na głównym"
+  },
+  "basket": {
+    "label1": "Pełne imię i nazwisko:",
+    "label3": "Numer telefonu:",
+    "label4": "Sposób dostawy:",
+    "label5": "Komentarz:",
+    "option1": "Dostawa",
+    "option2": "Ulec poprawie",
+    "formBtn": "Potwierdzać",
+    "bntText": "składać zamówienie"
   },
   "footer": {
     "text1": "główny",
